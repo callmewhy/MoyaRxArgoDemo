@@ -16,6 +16,7 @@
 		964CCA8D1DFFAAC8004D7FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964CCA8C1DFFAAC8004D7FA9 /* Assets.xcassets */; };
 		964CCA901DFFAAC8004D7FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964CCA8E1DFFAAC8004D7FA9 /* LaunchScreen.storyboard */; };
 		964CCA9B1DFFAAC9004D7FA9 /* MoyaRxArgoDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CCA9A1DFFAAC9004D7FA9 /* MoyaRxArgoDemoTests.swift */; };
+		96D2A0541E02E98700FA9240 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A0531E02E98700FA9240 /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		964CCA961DFFAAC9004D7FA9 /* MoyaRxArgoDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoyaRxArgoDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		964CCA9A1DFFAAC9004D7FA9 /* MoyaRxArgoDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoyaRxArgoDemoTests.swift; sourceTree = "<group>"; };
 		964CCA9C1DFFAAC9004D7FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D2A0531E02E98700FA9240 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		F30796CB581D756FEDB7F1D1 /* Pods-MoyaRxArgoDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoyaRxArgoDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MoyaRxArgoDemo/Pods-MoyaRxArgoDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,6 +120,7 @@
 			children = (
 				964CCA9A1DFFAAC9004D7FA9 /* MoyaRxArgoDemoTests.swift */,
 				964CCA9C1DFFAAC9004D7FA9 /* Info.plist */,
+				96D2A0531E02E98700FA9240 /* API.swift */,
 			);
 			path = MoyaRxArgoDemoTests;
 			sourceTree = "<group>";
@@ -343,6 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D2A0541E02E98700FA9240 /* API.swift in Sources */,
 				964CCA9B1DFFAAC9004D7FA9 /* MoyaRxArgoDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
