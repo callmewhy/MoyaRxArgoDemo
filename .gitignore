@@ -28,6 +28,8 @@ xcuserdata/
 
 
 ### Carthage ###
-# Carthage - A simple, decentralized dependency manager for Cocoa
 Carthage/Checkouts/
 Carthage/Build/
+
+### Cocoapods ###
+Pods/
