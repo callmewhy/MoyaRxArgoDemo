@@ -6,7 +6,9 @@ target 'MoyaRxArgoDemo' do
   use_frameworks!
   pod 'Moya', '8.0.0-beta.6'
   pod 'RxSwift', '~> 3.0'
+  pod 'Moya/RxSwift'
   pod 'Argo', '~> 4.0'
+  pod 'Curry', '~> 3.0'
 
   # Pods for MoyaRxArgoDemo
 
