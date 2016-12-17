@@ -25,12 +25,14 @@ class Demo5: XCTestCase {
                 .subscribe { event in
                     switch event {
                     case .next(let response):
-                        print(response)
-                        finish()
+                        let data = response.data
+                        let json = try! JSONSerialization.jsonObject(with: data)
+                        let post: Post = decode(json)!
+                        print(post)
                     case .error(let error):
                         print(error)
-                    default:
-                        break
+                    case .completed:
+                        finish()
                     }
                 }
                 .addDisposableTo(disposeBag)

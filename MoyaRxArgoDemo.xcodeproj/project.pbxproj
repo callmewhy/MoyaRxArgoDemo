@@ -23,7 +23,7 @@
 		96D2A05C1E039F8F00FA9240 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A05B1E039F8F00FA9240 /* Post.swift */; };
 		96D2A05E1E03A55F00FA9240 /* Response+Argo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A05D1E03A55F00FA9240 /* Response+Argo.swift */; };
 		96D2A0601E03B04600FA9240 /* moya+argo+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A05F1E03B04500FA9240 /* moya+argo+ext.swift */; };
-		96D2A0621E05621E00FA9240 /* moya+rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A0611E05621E00FA9240 /* moya+rx.swift */; };
+		96D2A0621E05621E00FA9240 /* moya+rx+argo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A0611E05621E00FA9240 /* moya+rx+argo.swift */; };
 		96D2A0661E05677900FA9240 /* moya+rx+ext+argo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A0651E05677900FA9240 /* moya+rx+ext+argo.swift */; };
 		96D2A0691E056BCB00FA9240 /* Observable+Argo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A0671E0567BA00FA9240 /* Observable+Argo.swift */; };
 		96D2A06B1E056E0900FA9240 /* moya+rx+ext+argo2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D2A06A1E056E0900FA9240 /* moya+rx+ext+argo2.swift */; };
@@ -64,7 +64,7 @@
 		96D2A05B1E039F8F00FA9240 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		96D2A05D1E03A55F00FA9240 /* Response+Argo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Response+Argo.swift"; sourceTree = "<group>"; };
 		96D2A05F1E03B04500FA9240 /* moya+argo+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "moya+argo+ext.swift"; sourceTree = "<group>"; };
-		96D2A0611E05621E00FA9240 /* moya+rx.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "moya+rx.swift"; sourceTree = "<group>"; };
+		96D2A0611E05621E00FA9240 /* moya+rx+argo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "moya+rx+argo.swift"; sourceTree = "<group>"; };
 		96D2A0651E05677900FA9240 /* moya+rx+ext+argo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "moya+rx+ext+argo.swift"; sourceTree = "<group>"; };
 		96D2A0671E0567BA00FA9240 /* Observable+Argo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Observable+Argo.swift"; sourceTree = "<group>"; };
 		96D2A06A1E056E0900FA9240 /* moya+rx+ext+argo2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "moya+rx+ext+argo2.swift"; sourceTree = "<group>"; };
@@ -151,7 +151,7 @@
 				96D2A0551E0300D900FA9240 /* moya.swift */,
 				96D2A0591E03948400FA9240 /* moya+argo.swift */,
 				96D2A05F1E03B04500FA9240 /* moya+argo+ext.swift */,
-				96D2A0611E05621E00FA9240 /* moya+rx.swift */,
+				96D2A0611E05621E00FA9240 /* moya+rx+argo.swift */,
 				96D2A0651E05677900FA9240 /* moya+rx+ext+argo.swift */,
 				96D2A06A1E056E0900FA9240 /* moya+rx+ext+argo2.swift */,
 			);
@@ -384,7 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96D2A0601E03B04600FA9240 /* moya+argo+ext.swift in Sources */,
-				96D2A0621E05621E00FA9240 /* moya+rx.swift in Sources */,
+				96D2A0621E05621E00FA9240 /* moya+rx+argo.swift in Sources */,
 				96D2A0541E02E98700FA9240 /* alamofire.swift in Sources */,
 				96D2A05A1E03948400FA9240 /* moya+argo.swift in Sources */,
 				96D2A0661E05677900FA9240 /* moya+rx+ext+argo.swift in Sources */,

@@ -30,10 +30,12 @@ class Demo7: XCTestCase {
                     switch event {
                     case .next(let post):
                         print(post)
+                    case .error(let error):
+                        print(error)
+                    case .completed:
                         finish()
-                    default:
-                        break
                     }
+                    
                 }
                 .addDisposableTo(disposeBag)
         }
