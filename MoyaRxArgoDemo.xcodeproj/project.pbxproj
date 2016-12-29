@@ -11,7 +11,6 @@
 		20C2BCE21DBC8A79B7012944 /* Pods_MoyaRxArgoDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DEACCCE5014DF0DB42EF20 /* Pods_MoyaRxArgoDemo.framework */; };
 		963EF3FA1E013A66008FE804 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963EF3F91E013A66008FE804 /* API.swift */; };
 		964CCA861DFFAAC8004D7FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CCA851DFFAAC8004D7FA9 /* AppDelegate.swift */; };
-		964CCA881DFFAAC8004D7FA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964CCA871DFFAAC8004D7FA9 /* ViewController.swift */; };
 		964CCA8B1DFFAAC8004D7FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964CCA891DFFAAC8004D7FA9 /* Main.storyboard */; };
 		964CCA8D1DFFAAC8004D7FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 964CCA8C1DFFAAC8004D7FA9 /* Assets.xcassets */; };
 		964CCA901DFFAAC8004D7FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 964CCA8E1DFFAAC8004D7FA9 /* LaunchScreen.storyboard */; };
@@ -49,7 +48,6 @@
 		963EF3F91E013A66008FE804 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		964CCA821DFFAAC8004D7FA9 /* MoyaRxArgoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoyaRxArgoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		964CCA851DFFAAC8004D7FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		964CCA871DFFAAC8004D7FA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		964CCA8A1DFFAAC8004D7FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		964CCA8C1DFFAAC8004D7FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		964CCA8F1DFFAAC8004D7FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -129,7 +127,6 @@
 				964CCA851DFFAAC8004D7FA9 /* AppDelegate.swift */,
 				96D2A05B1E039F8F00FA9240 /* Post.swift */,
 				963EF3F91E013A66008FE804 /* API.swift */,
-				964CCA871DFFAAC8004D7FA9 /* ViewController.swift */,
 				96D2A05D1E03A55F00FA9240 /* Response+Argo.swift */,
 				96D2A0671E0567BA00FA9240 /* Observable+Argo.swift */,
 				96D2A06C1E056EB400FA9240 /* Observable+Argo2.swift */,
@@ -369,7 +366,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				964CCA881DFFAAC8004D7FA9 /* ViewController.swift in Sources */,
 				96D2A05E1E03A55F00FA9240 /* Response+Argo.swift in Sources */,
 				964CCA861DFFAAC8004D7FA9 /* AppDelegate.swift in Sources */,
 				963EF3FA1E013A66008FE804 /* API.swift in Sources */,
